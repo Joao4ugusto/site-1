@@ -15,7 +15,7 @@ export default function Sidebar({open, onClose, children}: props){
     <section className={`z-50 transition-all duration-500 fixed right-0  md:left-0 top-0 bottom-0 md:border-r-2 md:border-color-border ${open ? ' w-screen bg-color-sidebar' : 'w-0'} md:w-[250px]  md:bg-color-sidebar`} >
     <div className={`${open ? 'mr-0' : ' -mr-10'}`}>
       <div className={`flex items-center justify-between transition-all duration-500`}>
-      <div className=" p-8">
+      <div className=" pt-5 px-8 py-8">
        <Image src={foto} alt="Logo" className=" w-[45px] h-[45px] md:w-[65px] md:h-[65px]" />
       </div>
       <div onClick={onClose} className=' p-8 md:hidden'>
