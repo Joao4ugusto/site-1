@@ -18,7 +18,7 @@ export default function Sidebar({open, onClose, children}: props){
       <div className=" pt-5 px-8 py-8">
        <Image src={foto} alt="Logo" className=" w-[45px] h-[45px] md:w-[65px] md:h-[65px]" />
       </div>
-      <div onClick={onClose} className=' p-8 md:hidden'>
+      <div onClick={onClose} className=' pt-5 px-8 py-8 md:hidden'>
         <IconClose />
        </div>
       </div>
