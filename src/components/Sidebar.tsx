@@ -19,8 +19,9 @@ export default function Sidebar({open, onClose, children}: props){
     <div className={`${open ? 'mr-0' : ' -mr-10'}`}>
       <div className={`flex items-center justify-between transition-all duration-500`}>
       <div className=" pt-5 px-8 py-8">
-       <Image src={foto} alt="Logo" className=" hidden md:block" />
-       <Image src={Logo} alt="Logo" className=" md:hidden" />
+      <h1 className=" font-bold text-lg md:text-xl  text-color-font-roxo">J4</h1>
+       {/* <Image src={foto} alt="Logo" className=" hidden md:block" />
+       <Image src={Logo} alt="Logo" className=" md:hidden" /> */}
       </div>
       <div onClick={onClose} className=' pt-5 px-8 py-8 md:hidden'>
         <span className={`${open ? ' block' : ' hidden'}`}>
