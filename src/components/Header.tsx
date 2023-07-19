@@ -11,7 +11,7 @@ export default function Header({ openSaidebarClick }: props){
     <header className=" z-40 md:hidden fixed bg-color-sidebar w-full">
     <div className=" h-[50px] my-4 mx-4 flex justify-between items-center">
     <div>
-      <Image width={45} height={45} src={Logo} alt="Logo menor" />
+      <Image src={Logo} alt="Logo menor" />
     </div>
     <div onClick={openSaidebarClick}>
       <IconMenu />

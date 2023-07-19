@@ -16,7 +16,8 @@ export default function Sidebar({open, onClose, children}: props){
     <div className={`${open ? 'mr-0' : ' -mr-10'}`}>
       <div className={`flex items-center justify-between transition-all duration-500`}>
       <div className=" pt-5 px-8 py-8">
-       <Image src={foto} alt="Logo" className=" w-[45px] h-[45px] md:w-[65px] md:h-[65px]" />
+       <Image src={foto} alt="Logo" className=" hidden md:block" />
+       <Image src={Logo} alt="Logo" className=" md:hidden" />
       </div>
       <div onClick={onClose} className=' pt-5 px-8 py-8 md:hidden'>
         <IconClose />
@@ -26,15 +27,15 @@ export default function Sidebar({open, onClose, children}: props){
         <div className="space-y-4">
         <h2 className=" text-sm font-normal text-color-font-secundaria">STACK</h2>
         <ul className=' space-y-3'>
-          <li className=" cursor-pointer">FrontEnd</li>
-          <li className=" cursor-pointer">BackEnd</li>
-          <li className=" cursor-pointer">Devops</li>
+          <li className=" hover:text-color-hover cursor-pointer">FrontEnd</li>
+          <li className=" hover:text-color-hover cursor-pointer">BackEnd</li>
+          <li className=" hover:text-color-hover cursor-pointer">Devops</li>
         </ul>
         </div>
         <div className=" space-y-4 mt-20">
         <h2 className=" text-sm font-normal text-color-font-secundar">LINKS</h2>
-        <ul className='space-y-3'>
-          <li className=" hover:text-color-hover cursor-pointer flex gap-x-2 items-center"><span> <Iconlink /> </span>Twitter</li>
+        <ul className='space-y-3 mb-3'>
+          <li className=" hover:text-color-hover cursor-pointer flex gap-x-2 items-center"><span> <Iconlink /></span>Twitter</li>
           <li className=" hover:text-color-hover cursor-pointer flex gap-x-2 items-center"><span> <Iconlink /></span>Github</li>
           <li className=" hover:text-color-hover cursor-pointer flex gap-x-2 items-center"><span> <Iconlink /></span>Linkedin</li>
           <li className=" hover:text-color-hover cursor-pointer flex gap-x-2 items-center"><span> <Iconlink /></span>Discord</li>
