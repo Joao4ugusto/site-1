@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Image from "next/image";
 import Iconlink from "@/icons/link";
 import foto from "../../public/foto.svg"
@@ -10,6 +11,8 @@ type props = {
   onClose: () => void;
 }
 
+
+
 export default function Sidebar({open, onClose, children}: props){
   return (
     <section className={`z-50 transition-all duration-500 fixed right-0  md:left-0 top-0 bottom-0 md:border-r-2 md:border-color-border ${open ? ' w-screen bg-color-sidebar' : 'w-0'} md:w-[250px]  md:bg-color-sidebar`} >
@@ -20,7 +23,9 @@ export default function Sidebar({open, onClose, children}: props){
        <Image src={Logo} alt="Logo" className=" md:hidden" />
       </div>
       <div onClick={onClose} className=' pt-5 px-8 py-8 md:hidden'>
-        <IconClose />
+        <span className={`${open ? ' block' : ' hidden'}`}>
+           <IconClose />
+        </span>
        </div>
       </div>
       <div className=' p-8 text-color-font-principal'>
