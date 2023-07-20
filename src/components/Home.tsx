@@ -13,7 +13,12 @@ export default function Home(){
             </ul>
             <p className=" mb-2 mt-10 font-light text-color-font-principal">Hello! I m João Augusto, a developer passionate about prototyping interactive and minimalist interfaces. Since I entered the world of programming, I have found immense pleasure in combining elegant aesthetics with fluid operation, creating unique experiences for users.</p>
             <p className=" mb-2 mt-5 font-light text-color-font-principal">Hello! I m João Augusto, a developer passionate about prototyping interactive and minimalist interfaces. Since I entered the world of programming, I have found immense pleasure in combining elegant aesthetics with fluid operation, creating unique experiences for users.</p>
-            <p className=" mb-2 mt-5 font-light text-color-font-principal">Hello! I m João Augusto, a developer passionate about prototyping interactive and minimalist interfaces. Since I entered the world of programming, I have found immense pleasure in combining elegant aesthetics with fluid operation, creating unique experiences for users.</p>
+            <p className=" mb-10 mt-5 font-light text-color-font-principal">Hello! I m João Augusto, a developer passionate about prototyping interactive and minimalist interfaces. Since I entered the world of programming, I have found immense pleasure in combining elegant aesthetics with fluid operation, creating unique experiences for users.</p>
+            <div className=" rounded border-[1px] border-color-border w-full h-60">
+                <div className=" p-5 border-b-[1px] border-color-border">
+                  <h1>Experience</h1>
+                </div>
+            </div>
       </div>
 
     </section>
