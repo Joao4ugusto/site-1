@@ -5,7 +5,7 @@ export default function Home(){
   return(
     <section className=" w-full h-full m-5 mt-32">
       <div className="">
-            <p className=" mb-2 text-2xl font-bold text-white">#AboutMe</p>
+            <p className=" mb-2 text-3xl font-bold text-white">#AboutMe</p>
             <p className=" mb-8 text-base font-ligh text-white">I m a Brazilian software developer, born in 2002, I like to prototype interfaces, but I m not a designer haha.</p>
             <ul className=" flex gap-6">
               <li className=" rounded text-white p-2 bg-color-sidebar border-[1px] border-color-border ">Linkedin</li>
