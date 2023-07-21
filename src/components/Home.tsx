@@ -1,5 +1,6 @@
+import Image from "next/image";
+import crvr from "../../public/logo.png"
 import IconEmail from "@/icons/email";
-
 
 export default function Home(){
   return(
@@ -21,10 +22,17 @@ export default function Home(){
                 <div className=" p-5 border-b-[1px] border-color-border">
                   <h1>Experience</h1>
                 </div>
-                <div className=" w-full h-44 border-b-[1px] border-color-border">
-                    <div>
+                <div className=" p-5 w-full h-44 border-b-[1px] border-color-border">
+                  <div className=" flex gap-4">
+                     <div className=" p-1 rounded bg-color-sidebar border-[1px] border-color-border">
+                        <Image width={40} height={40} src={crvr} alt="Logo da empresa crvr"/>
+                     </div>
+                     <div>
+                        <h1 className=" font-medium">CRVR</h1>
+                     </div>
+                  </div>
+                 
 
-                    </div>
                 </div>
             </div>
       </div>
