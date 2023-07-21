@@ -31,7 +31,7 @@ export default function Sidebar({open, onClose, children}: props){
       </div>
       <div className=' p-8 text-color-font-principal'>
         <div className="space-y-4">
-        <h2 className=" text-sm font-medium text-color-font-secundaria">STACK</h2>
+        <h2 className=" text-sm font-medium text-white">STACK</h2>
         <ul className=' space-y-3'>
           <li className=" hover:text-color-hover cursor-pointer">FrontEnd</li>
           <li className=" hover:text-color-hover cursor-pointer">BackEnd</li>
@@ -39,7 +39,7 @@ export default function Sidebar({open, onClose, children}: props){
         </ul>
         </div>
         <div className=" space-y-4 mt-20">
-        <h2 className=" text-sm font-medium text-color-font-secundar">LINKS</h2>
+        <h2 className=" text-sm font-medium text-white">LINKS</h2>
         <ul className='space-y-3 mb-3'>
           <li  className=" hover:text-color-hover cursor-pointer flex gap-x-2 items-center"><span> <Iconlink /></span>Twitter</li>
           <li className=" hover:text-color-hover cursor-pointer flex gap-x-2 items-center"><span> <Iconlink /></span>Github</li>
