@@ -4,9 +4,9 @@ import IconEmail from "@/icons/email";
 export default function Home(){
   return(
     <>
-    <div className=" absolute w-full h-20 border-b-[1px] border-color-border "></div>
+    <div className=" md:absolute md:w-full md:h-20 md:border-b-[1px] md:border-color-border "></div>
     <section className=" w-full h-full m-5 mt-32 md:mt-20">
-      <div className=" mt-12 md:ml-96 lg:ml-[450px] lg:w-[600px]">
+      <div className=" md:mt-12 md:ml-96 lg:ml-[450px] lg:w-[600px]">
             <p className=" mb-4 text-4xl font-bold text-white">About Me</p>
             <p className=" mb-8 text-base font-normal text-white">I m a Brazilian software developer, born in 2002, I like to prototype interfaces, but I m not a designer haha.</p>
             <ul className=" flex gap-6">
