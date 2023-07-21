@@ -1,6 +1,7 @@
 import Image from "next/image";
 import crvr from "../../public/logo.png"
 import IconEmail from "@/icons/email";
+import Iconlink from "@/icons/link";
 
 export default function Home(){
   return(
@@ -39,7 +40,7 @@ export default function Home(){
             </div>
       </div>
       <div className=" right-0 mr-5 rounded mb-5 fixed mt-5  bg-white text-black  bottom-0">
-      <h1 className=" p-2 font-bold">contents</h1>
+      <a className=" flex items-center gap-3 px-5 py-2 font-bold">Contents</a>
     </div>
 
     </section>
