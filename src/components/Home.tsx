@@ -24,13 +24,15 @@ export default function Home(){
                 </div>
                 <div className=" p-5 w-full h-44 border-b-[1px] border-color-border">
                   <div className=" flex gap-4">
-                     <div className="">
-                        <Image width={45} height={45} src={crvr} alt="Logo da empresa crvr"/>
+                     <div className=" text-black font-bold p-3 bg-green-800 rounded ">
+                      <h3 className=" text-sm">crvr</h3>
+                        {/* <Image width={45} height={45} src={crvr} alt="Logo da empresa crvr"/> */}
                      </div>
                      <div className=" gap-1">
                         <h1 className=" text-base font-medium">CRVR</h1>
-                        <h3 className=" text-sm font-light">Young apprentice</h3>
+                        <h3 className=" text-color-font-terceira text-sm font-light">Young apprentice</h3>
                      </div>
+                    
                   </div>
                  
 
