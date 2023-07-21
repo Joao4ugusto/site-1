@@ -40,7 +40,7 @@ export default function Home(){
             </div>
       </div>
       <div className=" right-0 mr-5 rounded mb-5 fixed mt-5  bg-white text-black  bottom-0">
-      <a className=" flex items-center gap-3 px-5 py-2 font-bold">Contents</a>
+      <a className=" text-sm flex items-center gap-3 px-4 py-2 font-bold">Contents</a>
     </div>
 
     </section>
