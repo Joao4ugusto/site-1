@@ -24,17 +24,16 @@ export default function Home(){
                 </div>
                 <div className=" p-5 w-full h-44 border-b-[1px] border-color-border">
                   <div className=" flex gap-4">
-                     <div className=" text-black font-bold p-3 bg-green-800 rounded ">
-                      <h3 className=" text-sm">crvr</h3>
+                     <div className=" text-white font-bold p-3 bg-color-sidebar border-[1px] border-color-border rounded ">
+                      <h3 className=" text-base font-bold">crvr</h3>
                         {/* <Image width={45} height={45} src={crvr} alt="Logo da empresa crvr"/> */}
                      </div>
                      <div className=" gap-1">
-                        <h1 className=" text-base font-medium">CRVR</h1>
-                        <h3 className=" text-color-font-terceira text-sm font-light">Young apprentice</h3>
+                        <a href="https://crvr.com.br/" className=" md:hover:text-color-font-roxo text-base font-medium">CRVR</a>
+                        <h3 className="text-color-font-terceira text-sm font-light">Young apprentice</h3>
                      </div>
-                    
                   </div>
-                 
+                 <p className=" text-color-font-secundaria text-sm font-light mt-4">I worked as a Young Apprentice in the administrative sector in Giruá-RS, helping to manage the company s expenses. I developed my communication and grew a lot with the experience.</p>
 
                 </div>
             </div>
