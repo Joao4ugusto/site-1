@@ -22,7 +22,7 @@ export default function Home(){
                 <div className=" p-5 border-b-[1px] border-color-border">
                   <h1>Experience</h1>
                 </div>
-                <div className=" p-5 w-full h-44 border-b-[1px] border-color-border">
+                <div className=" p-5 w-full h-52 md:h-44 border-b-[1px] border-color-border">
                   <div className=" flex gap-4">
                      <div className=" text-white font-bold p-3 bg-color-sidebar border-[1px] border-color-border rounded ">
                       <h3 className=" text-base font-bold">crvr</h3>
@@ -38,6 +38,9 @@ export default function Home(){
                 </div>
             </div>
       </div>
+      <div className=" right-0 mr-5 rounded mb-5 fixed mt-5  bg-white text-black  bottom-0">
+      <h1 className=" p-2 font-bold">contents</h1>
+    </div>
 
     </section>
     </>
