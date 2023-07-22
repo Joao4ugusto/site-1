@@ -3,6 +3,7 @@ import crvr from "../../public/logo.png"
 import IconEmail from "@/icons/email";
 import Iconlink from "@/icons/link";
 import IconAtom from "@/icons/atomo";
+import IconMundo from "@/icons/mundo";
 
 export default function Home(){
   return(
@@ -27,8 +28,9 @@ export default function Home(){
                 <div className=" p-5 w-full h-52 md:h-44 border-b-[1px] border-color-border">
                   <div className=" flex gap-4">
                      <div className=" text-white font-bold p-3 bg-color-sidebar border-[1px] border-color-border rounded ">
-                      <h3 className=" text-green-400 text-base font-bold">crvr</h3>
-                        {/* <Image width={45} height={45} src={crvr} alt="Logo da empresa crvr"/> */}
+                      {/* <h3 className=" text-green-400 text-base font-bold">crvr</h3> */}
+                      {/* <Image width={45} height={45} src={crvr} alt="Logo da empresa crvr"/> */}
+                      <IconMundo />
                      </div>
                      <div className=" gap-1">
                         <a href="https://crvr.com.br/" className=" md:hover:text-color-font-roxo text-base font-medium">CRVR</a>

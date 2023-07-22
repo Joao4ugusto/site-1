@@ -16,7 +16,6 @@ module.exports = {
         "color-font-terceira": "#A1A1AA",
         "color-hover": "#FFFF",
         "color-font-roxo": "#B4B1FF",
-        "color-crvr": "#1A5D1A",
       }
     },
     screens: {
