@@ -51,7 +51,7 @@ export default function Home(){
                         <h3 className="text-color-font-terceira text-sm font-light">founder</h3>
                      </div>
                   </div>
-                 <p className="text-color-font-secundaria text-sm font-light mt-4">I worked as a Young Apprentice in the administrative sector in Giruá-RS, helping to manage the company s expenses. I developed my communication and grew a lot with the experience.</p>
+                 <p className="text-color-font-secundaria text-sm font-light mt-4">I worked on freelance projects with a friend, creating websites and managing online ads. It was a great opportunity, where I could learn to be responsible and meet deadlines to deliver quality material.</p>
                 </div>
             </div>
       </div>
