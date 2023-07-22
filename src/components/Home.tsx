@@ -27,7 +27,7 @@ export default function Home(){
                 <div className=" p-5 w-full h-52 md:h-44 border-b-[1px] border-color-border">
                   <div className=" flex gap-4">
                      <div className=" text-white font-bold p-3 bg-color-sidebar border-[1px] border-color-border rounded ">
-                      <h3 className=" text-green-500 text-base font-bold">crvr</h3>
+                      <h3 className=" text-green-400 text-base font-bold">crvr</h3>
                         {/* <Image width={45} height={45} src={crvr} alt="Logo da empresa crvr"/> */}
                      </div>
                      <div className=" gap-1">
@@ -45,7 +45,7 @@ export default function Home(){
                         <IconAtom  />
                      </div>
                      <div className=" gap-1">
-                        <a href="https://crvr.com.br/" className=" md:hover:text-color-font-roxo text-base font-medium">Constant</a>
+                        <a href="https://site-1-kappa.vercel.app/" className=" md:hover:text-color-font-roxo text-base font-medium">Constant</a>
                         <h3 className="text-color-font-terceira text-sm font-light">founder</h3>
                      </div>
                   </div>
