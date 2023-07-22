@@ -2,6 +2,7 @@ import Image from "next/image";
 import crvr from "../../public/logo.png"
 import IconEmail from "@/icons/email";
 import Iconlink from "@/icons/link";
+import IconAtom from "@/icons/atomo";
 
 export default function Home(){
   return(
@@ -19,14 +20,14 @@ export default function Home(){
             <p className=" mb-2 mt-5 font-light text-color-font-terceira">At the age of 18, I founded a marketing and online ad management and website creation agency with a friend. This experience provided me with valuable learning and prepared me to fulfill my big dream of having my own business in the future.</p>
             <p className=" mb-10 mt-5 font-light text-color-font-terceira">In my free time, music is an essential part of my life, and being with my friends and family brings joy and balance. Furthermore, the connection with nature inspires me to seek creative solutions in my journey of personal and professional growth.</p>
             <p className=" mb-10 mt-5 font-light text-color-font-terceira">I am looking to the future and confident that I can achieve great things, leaving my mark in the digital world and positively impacting the lives of those who cross my path.</p>
-            <div className=" rounded border-[1px]  border-color-border w-full h-96">
+            <div className=" rounded border-[1px]  border-color-border w-full h-[500px] md:h-[420px]">
                 <div className=" p-5 border-b-[1px] border-color-border">
                   <h1>Experience</h1>
                 </div>
                 <div className=" p-5 w-full h-52 md:h-44 border-b-[1px] border-color-border">
                   <div className=" flex gap-4">
                      <div className=" text-white font-bold p-3 bg-color-sidebar border-[1px] border-color-border rounded ">
-                      <h3 className=" text-base font-bold">crvr</h3>
+                      <h3 className=" text-green-500 text-base font-bold">crvr</h3>
                         {/* <Image width={45} height={45} src={crvr} alt="Logo da empresa crvr"/> */}
                      </div>
                      <div className=" gap-1">
@@ -35,7 +36,20 @@ export default function Home(){
                      </div>
                   </div>
                  <p className=" text-color-font-secundaria text-sm font-light mt-4">I worked as a Young Apprentice in the administrative sector in Giruá-RS, helping to manage the company s expenses. I developed my communication and grew a lot with the experience.</p>
-
+                </div>
+                
+                <div className=" p-5 w-full">
+                  <div className=" flex gap-4">
+                     <div className=" text-white font-bold p-3 bg-color-sidebar border-[1px] border-color-border rounded ">
+                      {/* <h3 className=" text-base font-bold">Constant</h3> */}
+                        <IconAtom  />
+                     </div>
+                     <div className=" gap-1">
+                        <a href="https://crvr.com.br/" className=" md:hover:text-color-font-roxo text-base font-medium">Constant</a>
+                        <h3 className="text-color-font-terceira text-sm font-light">founder</h3>
+                     </div>
+                  </div>
+                 <p className="text-color-font-secundaria text-sm font-light mt-4">I worked as a Young Apprentice in the administrative sector in Giruá-RS, helping to manage the company s expenses. I developed my communication and grew a lot with the experience.</p>
                 </div>
             </div>
       </div>
