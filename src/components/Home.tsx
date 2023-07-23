@@ -13,10 +13,10 @@ export default function Home(){
       <div className=" md:mt-12 md:ml-96 lg:ml-[450px] lg:w-[600px]">
             <p className=" mb-4 text-4xl font-bold text-white">About Me</p>
             <p className=" mb-8 text-base font-normal text-white">I m a Brazilian software developer, born in 2002, I like to prototype interfaces, but I m not a designer haha.</p>
-            <ul className=" flex gap-6">
-              <li className=" cursor-pointer rounded text-white px-5 py-2 bg-color-sidebar border-[1px] border-color-border ">Linkedin</li>
-              <li className=" cursor-pointer rounded text-white flex gap-2 items-center px-5 py-2 bg-color-sidebar border-[1px] border-color-border"> <span> <IconEmail /></span> Email</li>
-            </ul>
+            <div className=" flex gap-6">
+              <a href="https://www.linkedin.com/in/jo%C3%A3o-augusto-oliveira-15b018238/" className=" hover:bg-color-sidebar/60  cursor-pointer rounded text-white px-5 py-2 bg-color-sidebar border-[1px] border-color-border ">Linkedin</a>
+              <a href="mailto:joaoaugusto311016@gmail.com" className=" hover:bg-color-sidebar/60 cursor-pointer rounded text-white flex gap-2 items-center px-5 py-2 bg-color-sidebar border-[1px] border-color-border"> <span> <IconEmail /></span> Email</a>
+            </div>
             <p className=" mb-2 mt-10 font-light text-color-font-terceira">Hello! I m João Augusto, a Computer Science student, passionate about turning solutions into code and creating immersive and minimalist interfaces.</p>
             <p className=" mb-2 mt-5 font-light text-color-font-terceira">At the age of 18, I founded a marketing and online ad management and website creation agency with a friend. This experience provided me with valuable learning and prepared me to fulfill my big dream of having my own business in the future.</p>
             <p className=" mb-10 mt-5 font-light text-color-font-terceira">In my free time, music is an essential part of my life, and being with my friends and family brings joy and balance. Furthermore, the connection with nature inspires me to seek creative solutions in my journey of personal and professional growth.</p>
