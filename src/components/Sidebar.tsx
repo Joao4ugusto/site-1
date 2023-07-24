@@ -40,13 +40,12 @@ export default function Sidebar({open, onClose, children}: props){
         </div>
         <div className=" space-y-4 mt-20">
         <h2 className=" text-sm font-medium text-white">LINKS</h2>
-        <ul className='space-y-3 mb-3'>
-          <li  className=" hover:text-color-hover cursor-pointer flex gap-x-2 items-center"><span> <Iconlink /></span>Twitter</li>
-          <li className=" hover:text-color-hover cursor-pointer flex gap-x-2 items-center"><span> <Iconlink /></span>Github</li>
-          <li className=" hover:text-color-hover cursor-pointer flex gap-x-2 items-center"><span> <Iconlink /></span>Linkedin</li>
-          <li className=" hover:text-color-hover cursor-pointer flex gap-x-2 items-center"><span> <Iconlink /></span>Discord</li>
-          <li className=" hover:text-color-hover cursor-pointer flex gap-x-2 items-center"><span> <Iconlink /></span>Twitch</li>
-        </ul>
+        <div className='space-y-3 mb-3'>
+          <a href="https://twitter.com/Joao4ugusto" className=" hover:text-color-hover cursor-pointer flex gap-x-2 items-center"><span> <Iconlink /></span>Twitter</a>
+          <a href="https://github.com/Joao4ugusto" className=" hover:text-color-hover cursor-pointer flex gap-x-2 items-center"><span> <Iconlink /></span>Github</a>
+          <a href="https://www.linkedin.com/in/jo%C3%A3o-augusto-oliveira-15b018238/" className=" hover:text-color-hover cursor-pointer flex gap-x-2 items-center"><span> <Iconlink /></span>Linkedin</a>
+          <a href="https://www.twitch.tv/joao4uguxto" className=" hover:text-color-hover cursor-pointer flex gap-x-2 items-center"><span> <Iconlink /></span>Twitch</a>
+        </div>
         </div>
       </div>
 

@@ -2,7 +2,7 @@
 import {useState} from 'react'
 import Sidebar from '@/components/Sidebar';
 import Header from '@/components/Header';
-import Home from '@/components/Home';
+import Sobre from '@/components/Sobre';
 
 export default function Page() {
   const [sidebarOpened, setSidebarOpened] =  useState(false);
@@ -16,7 +16,7 @@ export default function Page() {
 
       </Sidebar>
       <Header openSaidebarClick={openSaidebar} />
-      <Home />
+      <Sobre />
      </main>
   );
 }
