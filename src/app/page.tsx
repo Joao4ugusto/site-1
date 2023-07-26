@@ -13,10 +13,8 @@ export default function Page() {
   return (
      <main className="flex min-h-screen">
       <Sidebar open={sidebarOpened} onClose={clouseSaidebar}>
-
       </Sidebar>
       <Header openSaidebarClick={openSaidebar} />
-
       <Home />
      </main>
   );

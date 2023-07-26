@@ -1,24 +1,13 @@
 "use client"
-import {useState} from 'react'
 import IconEmail from "@/icons/email";
-import Iconlink from "@/icons/link";
 import IconAtom from "@/icons/atomo";
 import IconMundo from "@/icons/mundo";
-import Sidebar from "@/components/Sidebar";
-import Header from '@/components/Header';
 
 export default function page(){
-
-  const [sidebarOpened, setSidebarOpened] =  useState(false);
-
-  const openSaidebar = () => setSidebarOpened(true)
-  const clouseSaidebar = () => setSidebarOpened(false)
 
   return(
     <>
     <div className=" md:absolute md:w-full md:border-b-[1px] md:border-color-border "></div>
-    <Header openSaidebarClick={openSaidebar}  />
-    <Sidebar open={sidebarOpened} onClose={clouseSaidebar} />
     <section className=" w-full h-full m-5 mt-32 md:mt-32">
       <div className=" md:mt-12 md:ml-56 mf:ml-[235px] lg:ml-[450px] lg:w-[600px]">
             <p className=" mb-4 text-4xl font-bold text-white">About Me</p>
