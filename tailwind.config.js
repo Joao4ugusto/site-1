@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         "color-black": "#09090B",
         "color-sidebar": "#0F1011",
-        "color-border": "#1C1C1F",
+        "color-border": "#27272A",
         "color-font-principal": "#E4E4E7",
         "color-font-secundaria": "#D4D4D8",
         "color-font-terceira": "#A1A1AA",
