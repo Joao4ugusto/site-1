@@ -12,8 +12,8 @@ export default function page(){
             <p className=" mb-4 text-[42px] font-bold text-white">Developer and student</p>
             <p className=" mb-8 text-base font-normal text-white">Pleasure, I m João Augusto, developer and computer science student, passionate about technology, challenges and learning.</p>
             <div className=" flex gap-6">
-              <a href="/sobre" className=" hover:bg-color-fundo/80  cursor-pointer rounded text-white px-5 py-2 bg-color-fundo border-[1px] border-color-border ">About Me</a>
-              <a href="mailto:joaoaugusto311016@gmail.com" className=" hover:bg-color-fundo/80 cursor-pointer rounded text-white flex gap-2 items-center px-5 py-2 bg-color-fundo border-[1px] border-color-border"> <span> <IconEmail /></span> Email</a>
+              <a href="/sobre" className=" hover:bg-color-fundo/80  cursor-pointer rounded-md text-white px-5 py-2 bg-color-fundo border-[1px] border-color-border ">About Me</a>
+              <a href="mailto:joaoaugusto311016@gmail.com" className=" hover:bg-color-fundo/80 cursor-pointer rounded-md text-white flex gap-2 items-center px-5 py-2 bg-color-fundo border-[1px] border-color-border"> <span> <IconEmail /></span> Email</a>
             </div>
             <div className=" mt-10 rounded border-[1px]  border-color-border w-full h-[500px] md:h-[420px]">
                 <div className=" p-5 border-b-[1px] border-color-border">
