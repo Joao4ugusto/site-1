@@ -10,7 +10,8 @@ export default function Header({ openSaidebarClick }: props){
     <header className=" z-40 md:hidden fixed  bg-color-black  w-full">
     <div className=" h-[45px] my-4 mx-4 flex justify-between items-center">
     <div>
-      <h1 className=" font-bold text-xl text-color-font-roxo">J4</h1>
+      {/* <h1 className=" font-bold text-xl text-color-font-roxo">J4</h1> */}
+      <IconLogo />
     </div>
     <div onClick={openSaidebarClick} className=" p-2.5 bg-color-fundo rounded">
       <IconMenu />
