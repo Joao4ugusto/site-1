@@ -7,9 +7,8 @@ export default function page(){
 
   return(
     <>
-    <div className=" md:absolute md:w-full md:border-b-[1px] md:border-color-border "></div>
-    <section className=" w-full h-full m-5 mt-32 md:mt-32">
-      <div className=" md:mt-12 md:ml-56 mf:ml-[235px] lg:ml-[450px] lg:w-[600px]">
+    <section className=" w-full h-full m-5 mt-32 md:mt-24 ">
+      <div className="  md:ml-56 mf:ml-[235px] lg:ml-[450px] lg:w-[600px]">
             <p className=" mb-4 text-4xl font-bold text-white">About Me</p>
             <p className=" mb-8 text-base font-normal text-white">I m a Brazilian software developer, born in 2002, I like to prototype interfaces, but I m not a designer haha.</p>
             <div className=" flex gap-6">
