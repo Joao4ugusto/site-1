@@ -14,7 +14,7 @@ export default function Header({ openSaidebarClick }: props){
       <h1 className=" font-bold text-lg  text-color-font-roxo">J4</h1>
       {/* <Image src={Logo} alt="Logo menor" /> */}
     </div>
-    <div onClick={openSaidebarClick} className=" p-2 bg-color-border rounded border-[0.5px] border-color-border">
+    <div onClick={openSaidebarClick} className=" p-2 bg-color-border rounded ">
       <IconMenu />
     </div>
     </div>
