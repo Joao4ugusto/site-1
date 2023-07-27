@@ -15,11 +15,7 @@ export default function page(){
               <a href="/sobre" className=" hover:bg-color-sidebar/60  cursor-pointer rounded text-white px-5 py-2 bg-color-sidebar border-[1px] border-color-border ">About Me</a>
               <a href="mailto:joaoaugusto311016@gmail.com" className=" hover:bg-color-sidebar/60 cursor-pointer rounded text-white flex gap-2 items-center px-5 py-2 bg-color-sidebar border-[1px] border-color-border"> <span> <IconEmail /></span> Email</a>
             </div>
-            <p className=" mb-2 mt-10 font-light text-color-font-terceira">Hello! I m João Augusto, a Computer Science student, passionate about turning solutions into code and creating immersive and minimalist interfaces.</p>
-            <p className=" mb-2 mt-5 font-light text-color-font-terceira">At the age of 18, I founded a marketing and online ad management and website creation agency with a friend. This experience provided me with valuable learning and prepared me to fulfill my big dream of having my own business in the future.</p>
-            <p className=" mb-10 mt-5 font-light text-color-font-terceira">In my free time, music is an essential part of my life, and being with my friends and family brings joy and balance. Furthermore, the connection with nature inspires me to seek creative solutions in my journey of personal and professional growth.</p>
-            <p className=" mb-10 mt-5 font-light text-color-font-terceira">I am looking to the future and confident that I can achieve great things, leaving my mark in the digital world and positively impacting the lives of those who cross my path.</p>
-            <div className=" rounded border-[1px]  border-color-border w-full h-[500px] md:h-[420px]">
+            <div className=" mt-10 rounded border-[1px]  border-color-border w-full h-[500px] md:h-[420px]">
                 <div className=" p-5 border-b-[1px] border-color-border">
                   <h1>Experience</h1>
                 </div>
