@@ -3,18 +3,6 @@ import { useState } from "react";
 import React from "react";
 import Sidebar from '@/components/Sidebar';
 import Header from '@/components/Header';
-// import { Inter } from 'next/font/google'
-import { Space_Grotesk } from 'next/font/google'
-
-const space = Space_Grotesk({ 
-  weight: ['300', '400', '500', '600', '700'],
-  subsets: ['latin'] })
-
-
-export const metadata = {
-  title: 'João 4ugusto',
-  description: 'Meu portfólio pessoal',
-}
 
 export default function RootLayout({
   children,
