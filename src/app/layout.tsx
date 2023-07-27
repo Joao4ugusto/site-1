@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br" className={space.className}>
-      <body className=" bg-black  text-white">{children}</body>
+      <body className=" bg-color-black  text-white">{children}</body>
     </html>
   )
 }
