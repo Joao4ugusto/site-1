@@ -9,8 +9,8 @@ module.exports = {
     extend: {
       colors: {
         "color-black": "#09090B",
-        "color-sidebar": "#0F1011",
-        "color-border": "#27272A",
+        "color-sidebar": "#020202",
+        "color-border": "#1E1E1F",
         "color-font-principal": "#E4E4E7",
         "color-font-secundaria": "#D4D4D8",
         "color-font-terceira": "#A1A1AA",
