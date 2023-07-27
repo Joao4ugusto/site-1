@@ -33,9 +33,9 @@ export default function Sidebar({open, onClose, children}: props){
         <div className="space-y-4">
         <h2 className=" text-sm font-medium text-white">STACK</h2>
         <div className=' space-y-3'>
-          <a className="  hover:text-color-hover cursor-pointer flex gap-x-2 items-center"><span><Iconlink /></span>Home</a>
-          <a className="  hover:text-color-hover cursor-pointer flex gap-x-2 items-center"><span><Iconlink /></span>About</a>
-          <a className="  hover:text-color-hover cursor-pointer flex gap-x-2 items-center"><span><Iconlink /></span>Content</a>
+          <a href="/home" className="  hover:text-color-hover cursor-pointer flex gap-x-2 items-center"><span><Iconlink /></span>Home</a>
+          <a href="/sobre" className="  hover:text-color-hover cursor-pointer flex gap-x-2 items-center"><span><Iconlink /></span>About</a>
+          <a href="/content" className="  hover:text-color-hover cursor-pointer flex gap-x-2 items-center"><span><Iconlink /></span>Content</a>
         </div>
         </div>
         <div className=" space-y-4 mt-20">
