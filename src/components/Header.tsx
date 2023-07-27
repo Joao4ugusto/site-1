@@ -1,6 +1,5 @@
-import Image from "next/image"
-import Logo from "../../public/foto-menor.svg"
 import IconMenu from "@/icons/menu";
+import IconLogo from "@/icons/logo";
 
 type props = {
   openSaidebarClick: () => void;
@@ -11,8 +10,8 @@ export default function Header({ openSaidebarClick }: props){
     <header className=" z-40 md:hidden fixed  bg-color-black  w-full">
     <div className=" h-[45px] my-4 mx-4 flex justify-between items-center">
     <div>
-      <h1 className=" font-bold text-lg  text-color-font-roxo">J4</h1>
-      {/* <Image src={Logo} alt="Logo menor" /> */}
+      {/* <h1 className=" font-bold text-lg  text-color-font-roxo">J4</h1> */}
+      <IconLogo />
     </div>
     <div onClick={openSaidebarClick} className=" p-2.5 bg-color-fundo rounded">
       <IconMenu />
