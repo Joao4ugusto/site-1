@@ -17,7 +17,7 @@ export default function Header({ openSaidebarClick }: props){
       <IconMenu />
     </div>
     </div>
-    <hr className=" border-y-color-border" />
+    <hr className=" border-y-color-border-2" />
   </header>
   )
 }

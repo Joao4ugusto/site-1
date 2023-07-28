@@ -11,6 +11,7 @@ module.exports = {
         "color-black": "#050505",
         "color-sidebar": "#050505",
         "color-border": "#282828",
+        "color-border-2": "#181818",
         "color-fundo": "#161616",
         "color-font-principal": "#E4E4E7",
         "color-font-secundaria": "#D4D4D8",
