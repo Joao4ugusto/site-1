@@ -1,5 +1,22 @@
-export default function IconLogo(){
-  return(
-    <svg xmlns="http://www.w3.org/2000/svg" width={28} height={28} enable-background="new 0 0 24 24" viewBox="0 0 24 24" id="bing"><path fill="#B4B1FF" d="M10.1,8.6l1.7,4.3l2.8,1.3L9,17.5V3.4L5,2v17.8L9,22l10-5.8v-4.5L10.1,8.6z"></path></svg>
-  )
+// icon:asterisk | Lucide https://lucide.dev/ | Lucide
+import * as React from "react";
+
+function IconLogo(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      fill="none"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      viewBox="0 0 24 24"
+      height="2em"
+      width="2em"
+      {...props}
+    >
+      <path d="M12 6v12M17.196 9L6.804 15M6.804 9l10.392 6" />
+    </svg>
+  );
 }
+
+export default IconLogo;
