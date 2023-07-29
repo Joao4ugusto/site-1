@@ -7,7 +7,7 @@ export default function page(){
 
   return(
     <>
-    <section className=" w-full h-full m-5 mt-28 md:mt-20 ">
+    <section className=" w-full h-full m-5 mt-32 md:mt-20 ">
       <div className="  md:ml-56 mf:ml-[235px] lg:ml-[450px] lg:w-[600px]">
             <p className=" mb-3 text-color-font-secundaria md:hidden">Intro</p>
             <p className=" mb-4 text-[35px] font-bold text-white">Developer and student</p>
