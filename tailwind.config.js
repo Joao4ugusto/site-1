@@ -14,7 +14,7 @@ module.exports = {
         "color-border-2": "#181818",
         "color-fundo": "#161616",
         "color-font-principal": "#E4E4E7",
-        "color-font-secundaria": "#D4D4D8",
+        "color-font-secundaria": "#8e8e8e",
         "color-font-terceira": "#A1A1AA",
         "color-hover": "#FFFF",
         "color-font-roxo": "#B4B1FF",
