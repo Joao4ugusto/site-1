@@ -7,7 +7,7 @@ export default function page(){
 
   return(
     <>
-    <section className=" w-full h-full m-5 mt-28 md:mt-20 ">
+    <section className=" w-full h-full m-5 mt-32 md:mt-20 ">
       <div className="  md:ml-56 mf:ml-[235px] lg:ml-[450px] lg:w-[600px]">
             <p className=" mb-4 text-[35px] font-bold text-white">About Me</p>
             <p className=" mb-8 text-base font-normal text-white">I m a Brazilian software developer, born in 2002, I like to prototype interfaces, but I m not a designer.</p>
