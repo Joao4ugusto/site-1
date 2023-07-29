@@ -7,8 +7,9 @@ export default function page(){
 
   return(
     <>
-    <section className=" w-full h-full m-5 mt-24 md:mt-20 ">
+    <section className=" w-full h-full m-5 mt-28 md:mt-20 ">
       <div className="  md:ml-56 mf:ml-[235px] lg:ml-[450px] lg:w-[600px]">
+            <p className=" md:hidden">Intro</p>
             <p className=" mb-4 text-[35px] font-bold text-white">Developer and student</p>
             <p className=" mb-8 text-base font-normal text-white">Pleasure, I m João Augusto, developer and computer science student, passionate about technology, challenges and learning.</p>
             <div className=" flex gap-4">
@@ -40,7 +41,7 @@ export default function page(){
                         <h3 className="text-color-font-terceira text-sm font-light">Young apprentice</h3>
                      </div> 
               </div>
-              <a className=" hover:bg-color-fundo/80 cursor-pointer text-center font-medium mt-5 block p-2 rounded-md w-full bg-color-fundo border-[1px] border-color-border">view all</a>
+              <a href="/sobre" className=" hover:bg-color-fundo/80 cursor-pointer text-center font-medium mt-5 block p-2 rounded-md w-full bg-color-fundo border-[1px] border-color-border">view all</a>
             </div>
       </div>
       <div className=" right-0 mr-5 rounded-md mb-5 fixed mt-5  bg-white text-black  bottom-0">
