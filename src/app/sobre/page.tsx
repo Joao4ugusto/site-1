@@ -9,7 +9,7 @@ export default function page(){
     <>
     <section className=" w-full h-full m-5 mt-32 md:mt-20 ">
       <div className="  md:ml-56 mf:ml-[235px] lg:ml-[450px] lg:w-[600px]">
-            <p className=" mb-4 text-[35px] font-bold text-white">About Me</p>
+            <p className=" mb-4 text-[40px] font-bold text-white">About Me</p>
             <p className=" mb-8 text-base font-medium text-white">I m a Brazilian software developer, born in 2002, I like to prototype interfaces, but I m not a designer.</p>
             <div className=" flex gap-4">
               <a href="https://www.linkedin.com/in/jo%C3%A3o-augusto-oliveira-15b018238/" className=" hover:bg-color-fundo/80  cursor-pointer rounded-md text-white px-5 py-2 bg-color-fundo border-[1px] border-color-border ">Linkedin</a>
