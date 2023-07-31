@@ -18,7 +18,7 @@ export default function page(){
             </div>
             <div className=" mt-12">
                 <h1 className=" font-medium text-lg">Blog</h1>
-                <p className=" text-color-font-secundaria text-base mt-5">Check out my articles on dev.to! Short readings with space for your feedback. I sincerely appreciate your opinions</p>
+                <p className=" text-color-font-secundaria text-base mt-2">Check out my articles on dev.to! Short readings with space for your feedback. I sincerely appreciate your opinions.</p>
             </div>
             <div className="p-5 mt-10 rounded border-[1px]  border-color-border w-full">
               <h1>Experience</h1>
