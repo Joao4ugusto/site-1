@@ -19,6 +19,28 @@ export default function page(){
             <div className=" mt-12">
                 <h1 className=" font-medium text-lg">Blog</h1>
                 <p className=" text-color-font-secundaria text-base mt-2">Check out my articles on dev.to! Short readings with space for your feedback. I sincerely appreciate your opinions.</p>
+                
+                <div className=" mt-5 flex px-5 gap-4 py-5  border-[1px] rounded border-color-border">
+                     <div className=" text-white font-bold p-3 bg-color-sidebar border-[1px] border-color-border rounded ">
+                        <IconAtom  />
+                     </div>
+                     <div className="">
+                        <a  className="  text-base font-medium">Constant</a>
+                        <h3 className="text-color-font-terceira text-sm font-light">founder</h3>
+                     </div>
+                     
+                     
+                     <div className=" text-white font-bold p-3 bg-color-sidebar border-[1px] border-color-border rounded ">
+                        <IconAtom  />
+                     </div>
+                     <div className="">
+                        <a  className="  text-base font-medium">Constant</a>
+                        <h3 className="text-color-font-terceira text-sm font-light">founder</h3>
+                     </div>
+                     
+                  </div>
+
+
             </div>
             <div className="p-5 mt-10 rounded border-[1px]  border-color-border w-full">
               <h1>Experience</h1>
