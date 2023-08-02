@@ -13,7 +13,7 @@ export default function page(){
             <p className=" mb-4 text-[38px] font-bold text-white">Developer and student</p>
             <p className=" mb-8 text-base font-medium text-white">Pleasure, I m João Augusto, developer and computer science student, passionate about technology, challenges and learning.</p>
             <div className=" flex gap-4">
-              <a href="/sobre" className="  hover:bg-color-fundo/80  cursor-pointer rounded-md text-white px-5 py-2 bg-color-fundo border-[1px] border-color-border ">About Me</a>
+              <a href="https://www.linkedin.com/in/jo%C3%A3o-augusto-oliveira-15b018238/" className="  hover:bg-color-fundo/80  cursor-pointer rounded-md text-white px-5 py-2 bg-color-fundo border-[1px] border-color-border ">Linkedin</a>
               <a href="mailto:joaoaugusto311016@gmail.com" className="  hover:bg-color-fundo/80 cursor-pointer rounded-md text-white flex gap-2 items-center px-5 py-2 bg-color-fundo border-[1px] border-color-border"> <span> <IconEmail /></span> Email</a>
             </div>
             <div className=" mt-12">
