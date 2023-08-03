@@ -2,6 +2,7 @@
 import IconEmail from "@/icons/email";
 import IconAtom from "@/icons/atomo";
 import IconMundo from "@/icons/mundo";
+import IconDevTo from "@/icons/devTo";
 
 export default function page(){
 
@@ -19,28 +20,29 @@ export default function page(){
             <div className=" mt-12">
                 <h1 className=" font-medium text-lg">Blog</h1>
                 <p className=" text-color-font-secundaria text-base mt-2">Check out my articles on dev.to! Short readings with space for your feedback. I sincerely appreciate your opinions.</p>
-                
-                <div className=" mt-5 flex px-5 gap-4 py-5  border-[1px] rounded border-color-border">
+                <div className="p-5 mt-10 rounded border-[1px]  border-color-border w-full">
+                <div className="flex gap-4">
                      <div className=" text-white font-bold p-3 bg-color-sidebar border-[1px] border-color-border rounded ">
-                        <IconAtom  />
+                        <IconDevTo />
                      </div>
                      <div className="">
-                        <a  className="  text-base font-medium">Constant</a>
-                        <h3 className="text-color-font-terceira text-sm font-light">founder</h3>
+                        <h1>Tipo abstrato de Dados</h1>
+                        <h3 className=" text-color-font-terceira text-sm font-semibold">Dev.to</h3>
                      </div>
-                     
-                     
-                     <div className=" text-white font-bold p-3 bg-color-sidebar border-[1px] border-color-border rounded ">
-                        <IconAtom  />
+               </div>
+              <div className=" mt-5 flex gap-4">
+                     <div className="  text-white font-bold p-3 bg-color-sidebar border-[1px] border-color-border rounded ">
+                      < IconDevTo />
                      </div>
                      <div className="">
-                        <a  className="  text-base font-medium">Constant</a>
-                        <h3 className="text-color-font-terceira text-sm font-light">founder</h3>
-                     </div>
-                     
-                  </div>
-
-
+                        <h1>Banco de Dados</h1>
+                        <h3 className="  text-color-font-terceira text-sm font-semibold">Dev.to</h3>
+                     </div> 
+              </div>
+              </div>
+              <a href="https://dev.to/joao31oliveira" className=" hover:bg-color-fundo/80 cursor-pointer text-center font-medium mt-5 block p-2 rounded-md w-full bg-color-fundo border-[1px] border-color-border">view all</a>
+            
+            
             </div>
             <div className="p-5 mt-10 rounded border-[1px]  border-color-border w-full">
               <h1>Experience</h1>
