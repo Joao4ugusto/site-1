@@ -21,7 +21,7 @@ export default function page(){
                 <h1 className=" font-medium text-lg">Blog</h1>
                 <p className=" text-color-font-secundaria text-base mt-2">Check out my articles on dev.to! Short readings with space for your feedback. I sincerely appreciate your opinions.</p>
                 <div className=" py-5 px-3 mt-10 rounded border-[1px] border-color-border w-full">
-                <div className="flex gap-4 hover:bg-color-border/30 rounded cursor-pointer p-2">
+                <a href="https://dev.to/joao31oliveira" className="flex gap-4 hover:bg-color-border/30 rounded cursor-pointer p-2">
                      <div className=" text-white font-bold p-3 bg-color-sidebar border-[1px] border-color-border rounded ">
                         <IconDevTo />
                      </div>
@@ -29,8 +29,8 @@ export default function page(){
                         <h1>abstract data type</h1>
                         <h3 className=" text-color-font-terceira text-sm font-semibold">Dev.to</h3>
                      </div>
-               </div>
-              <div className=" mt-3 flex gap-4 hover:bg-color-border/30 rounded cursor-pointer p-2">
+               </a>
+              <a href="https://dev.to/joao31oliveira" className=" mt-3 flex gap-4 hover:bg-color-border/30 rounded cursor-pointer p-2">
                      <div className="  text-white font-bold p-3 bg-color-sidebar border-[1px] border-color-border rounded ">
                       < IconDevTo />
                      </div>
@@ -38,7 +38,7 @@ export default function page(){
                         <h1>Database</h1>
                         <h3 className="  text-color-font-terceira text-sm font-semibold">Dev.to</h3>
                      </div> 
-              </div>
+              </a>
               </div>
               <a href="https://dev.to/joao31oliveira" className=" hover:bg-color-fundo/80 cursor-pointer text-center font-medium mt-5 block p-2 rounded-md w-full bg-color-fundo border-[1px] border-color-border">view all</a>
             
