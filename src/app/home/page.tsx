@@ -9,7 +9,7 @@ export default function page(){
   return(
     <>
     <section className=" w-full h-full m-5 mt-32 md:mt-20 ">
-      <div className=" md:ml-[220px]  md:w-[470px] mf:ml-[245px] mf:w-[480px] sy:ml-[270px] sy:w-[530px] lg:ml-[340px] lg:w-[500px] xl:ml-[430px] xl:w-[550px]">
+      <div className=" md:ml-[220px]  md:w-[470px] mf:ml-[245px] mf:w-[480px] sy:ml-[270px] sy:w-[530px] lg:ml-[340px] lg:w-[500px] xl:ml-[430px] xl:w-[550px] 2xl:ml-[470px]">
             <p className=" font-medium text-color-font-secundaria text-lg md:hidden">Intro</p>
             <p className=" mb-4 text-[38px] font-bold text-white">Developer and <span className=" text-zinc-100">student</span></p>
             <p className=" mb-8 text-base font-medium text-white">Pleasure, I m João Augusto, developer and computer science student, passionate about technology, challenges and learning.</p>
@@ -20,8 +20,8 @@ export default function page(){
             <div className=" mt-12">
                 <h1 className=" font-medium text-lg">Blog</h1>
                 <p className=" text-color-font-secundaria text-base mt-2">Check out my articles on dev.to! Short readings with space for your feedback. I sincerely appreciate your opinions.</p>
-                <div className="p-5 mt-10 rounded border-[1px]  border-color-border w-full">
-                <div className="flex gap-4">
+                <div className=" py-5 px-3 mt-10 rounded border-[1px] border-color-border w-full">
+                <div className="flex gap-4 hover:bg-color-border/30 rounded cursor-pointer p-2">
                      <div className=" text-white font-bold p-3 bg-color-sidebar border-[1px] border-color-border rounded ">
                         <IconDevTo />
                      </div>
@@ -30,7 +30,7 @@ export default function page(){
                         <h3 className=" text-color-font-terceira text-sm font-semibold">Dev.to</h3>
                      </div>
                </div>
-              <div className=" mt-5 flex gap-4">
+              <div className=" mt-3 flex gap-4 hover:bg-color-border/30 rounded cursor-pointer p-2">
                      <div className="  text-white font-bold p-3 bg-color-sidebar border-[1px] border-color-border rounded ">
                       < IconDevTo />
                      </div>
