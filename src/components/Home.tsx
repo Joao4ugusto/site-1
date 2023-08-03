@@ -9,7 +9,7 @@ export default function page(){
   return(
     <>
     <section className=" w-full h-full m-5 mt-32 md:mt-20 ">
-      <div className="  md:ml-56 mf:ml-[235px] lg:ml-[450px] lg:w-[600px]">
+      <div className=" md:ml-[220px]  md:w-[470px] mf:ml-[245px] mf:w-[480px] sy:ml-[270px] sy:w-[530px] lg:ml-[340px] lg:w-[500px] xl:ml-[430px] xl:w-[550px]">
             <p className=" font-medium text-color-font-secundaria text-lg md:hidden">Intro</p>
             <p className=" mb-4 text-[38px] font-bold text-white">Developer and <span className=" text-zinc-100">student</span></p>
             <p className=" mb-8 text-base font-medium text-white">Pleasure, I m João Augusto, developer and computer science student, passionate about technology, challenges and learning.</p>
