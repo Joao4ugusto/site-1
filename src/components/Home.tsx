@@ -26,7 +26,7 @@ export default function page(){
                         <IconDevTo />
                      </div>
                      <div className="">
-                        <h1>Tipo abstrato de Dados</h1>
+                        <h1>abstract data type</h1>
                         <h3 className=" text-color-font-terceira text-sm font-semibold">Dev.to</h3>
                      </div>
                </div>
@@ -35,7 +35,7 @@ export default function page(){
                       < IconDevTo />
                      </div>
                      <div className="">
-                        <h1>Banco de Dados</h1>
+                        <h1>Database</h1>
                         <h3 className="  text-color-font-terceira text-sm font-semibold">Dev.to</h3>
                      </div> 
               </div>
