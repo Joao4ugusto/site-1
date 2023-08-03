@@ -8,7 +8,7 @@ export default function page(){
   return(
     <>
     <section className=" w-full h-full m-5 mt-32 md:mt-20 ">
-      <div className="  md:ml-56 mf:ml-[235px] lg:ml-[450px] lg:w-[600px]">
+      <div className=" md:ml-[220px]  md:w-[470px] mf:ml-[245px] mf:w-[480px] sy:ml-[270px] sy:w-[530px] lg:ml-[340px] lg:w-[500px] xl:ml-[430px] xl:w-[550px] 2xl:ml-[470px]">
             <p className=" mb-4 text-[38px] font-bold text-white">About Me</p>
             <p className=" mb-8 text-base font-medium text-white">I m a Brazilian software developer, born in 2002, I like to prototype interfaces, but I m not a designer.</p>
             <div className=" flex gap-4">
