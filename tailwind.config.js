@@ -8,16 +8,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "color-black": "#050505",
-        "color-sidebar": "#050505",
-        "color-border": "#222222",
-        "color-border-2": "#181818",
-        "color-fundo": "#161616",
+        "color-black": "#151718",
         "color-font-principal": "#E4E4E7",
         "color-font-secundaria": "#9f9f9f",
-        "color-font-terceira": "#A1A1AA",
-        "color-hover": "#FFFF",
-        "color-font-roxo": "#B4B1FF",
       }
     },
     screens: {
