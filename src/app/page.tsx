@@ -1,6 +1,13 @@
 "use client"
 import IconMenu from "@/icons/menu";
 import IconLogo from "@/icons/logo";
+import IconHome from "@/icons/home";
+import IconNotas from "@/icons/notas";
+import IconProject from "@/icons/project";
+import IconGit from "@/icons/github";
+import IconTwitter from "@/icons/twitter";
+import IconSun from "@/icons/sun";
+import IconMoon from "@/icons/moon";
 
 export default function Page() {
 
@@ -11,11 +18,50 @@ export default function Page() {
     <div className=" md:hidden" >
       <IconMenu />
     </div>
-    <div className=" lg:p-3 lg:hover:bg-white/10 hover:rounded inline-block">
-  <div className="transform-gpu ">
+    <div className=" flex gap-1">
+    <div className=" hidden md:flex lg:p-4 lg:hover:bg-white/10 hover:rounded ">
+      <div className="transform-gpu">
+        <IconHome />
+      </div>
+    </div>
+    <div className=" hidden md:flex lg:p-4 lg:hover:bg-white/10 hover:rounded ">
+      <div className="transform-gpu">
+        <IconNotas />
+      </div>
+    </div>
+    <div className=" hidden md:flex lg:p-4 lg:hover:bg-white/10 hover:rounded ">
+      <div className="transform-gpu">
+        <IconProject />
+      </div>
+    </div>
+    <p className=" hidden md:flex p-3 text-color-font-secundaria">|</p>
+    <div className=" hidden md:flex lg:p-4 lg:hover:bg-white/10 hover:rounded ">
+      <div className="transform-gpu">
+        <IconGit />
+      </div>
+    </div>
+    <div className=" hidden md:flex lg:p-4 lg:hover:bg-white/10 hover:rounded ">
+      <div className="transform-gpu">
+        <IconTwitter />
+      </div>
+    </div>
+    <p className=" hidden md:flex p-3 text-color-font-secundaria">|</p>
+    <div className=" hidden md:flex lg:p-4 lg:hover:bg-white/10 hover:rounded ">
+      <div className="transform-gpu">
+        <IconSun />
+      </div>
+    </div>
+    <div className=" hidden md:flex lg:p-4 lg:hover:bg-white/10 hover:rounded ">
+      <div className="transform-gpu">
+        <IconMoon />
+      </div>
+    </div>
+    </div>
+    <div className=" lg:p-4 lg:hover:bg-white/10 hover:rounded inline-block">
+    <div className="transform-gpu ">
     <IconLogo />
-  </div>
-</div>
+    </div>
+   </div>
     </div>
     </header>
 
