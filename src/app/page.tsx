@@ -13,7 +13,7 @@ export default function Page() {
 
   return (
     <div className=" ">
-    <header className=" top-0 py-6 px-6 md:px-36 lg:px-36 lg:py-5 xl:px-[385px] xl:py-5 2xl:px-[435px] 2xl:py-5 fixed w-full  ">
+    <header className=" top-0 py-6 px-6 md:px-36 lg:px-36 lg:py-5 xl:px-[385px] xl:py-5 2xl:px-[435px] 2xl:py-5 fixed w-full  bg-color-black/95 ">
     <div className=" flex justify-between items-center">
     <div className=" md:hidden" >
       <IconMenu />
