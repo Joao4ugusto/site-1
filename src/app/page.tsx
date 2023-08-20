@@ -12,14 +12,14 @@ export default function Page() {
       <p className=" text-color-font-secundaria  mb-14 font-medium text-sm  md:text-base leading-6">Previously, I worked at Rainbow, where I focused on RainbowKit. Before that, I co-created Radix, designed the Stitches API and led their developer community.</p>
     </div>
     <div className=" text-sm px-6 mt-26 md:px-36 lg:px-40 lg:mt-28 xl:px-[400px] 2xl:px-[450px]">
-      <h2 className=" mb-10">Writing</h2>
-      <div className=" hidden md:flex lg:p-3  w-[200px] h-[120px] lg:hover:bg-gradient-to-r from-green-200/10 via-green-300/10 to-blue-500/10 hover:rounded ">
+      <h2 className=" mb-10 text-base">Writing</h2>
+      <div className=" justify-between w-full h-full md:flex lg:p-3  md:w-[200px] md:h-[120px] lg:hover:bg-gradient-to-r from-green-200/10 via-green-300/10 to-blue-500/10 hover:rounded ">
       <div className="transform-gpu">
         <div className=" flex md:block">
            <h1>Connect Wallet</h1>
            <h2>button, but better 🌈 🧰</h2>
         </div>
-        <p className=" mt-5">May 12, 2022</p>
+        <p className=" justify-between text-sm">May 12, 2022</p>
       </div>
     </div>
     </div>
