@@ -73,7 +73,7 @@ export default function Page() {
       <p className=" text-color-font-principal  mb-10 font-medium text-base leading-6">I m currently working at Raycast as a DX Engineer to grow its developer community.</p>
       <p className=" text-color-font-principal  mb-14 font-medium text-base leading-6">Previously, I worked at Rainbow, where I focused on RainbowKit. Before that, I co-created Radix, designed the Stitches API and led their developer community.</p>
     </div>
-    <div className=" z-10 px-6 mt-28 md:px-36 lg:px-40 lg:mt-36 xl:px-[400px] 2xl:px-[450px]">
+    <div className=" z-10 px-6 mt-26 md:px-36 lg:px-40 lg:mt-36 xl:px-[400px] 2xl:px-[450px]">
       <h2>Writing</h2>
     </div>
     
