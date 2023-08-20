@@ -33,7 +33,7 @@ export default function RootLayout({
       <Image src={fundo} alt='' className=' absolute z-[-1] top-0 opacity-20 w-screen h-screen object-cover' />
       <body className=" bg-color-black text-white">{children}
 
-    <header className=" top-0 py-6 px-6 md:px-36 lg:px-36 lg:py-5 xl:px-[385px] xl:py-5 2xl:px-[435px] 2xl:py-5 fixed w-full">
+    <header className=" top-0 py-6 px-6 md:px-36 lg:px-36 lg:py-5 xl:px-[385px] xl:py-5 2xl:px-[435px] 2xl:py-5 fixed w-full bg-opacity-95">
     <div className=" flex justify-between items-center">
     <div className=" md:hidden" >
       <IconMenu />
