@@ -1,5 +1,7 @@
 import './globals.css'
 import { Space_Grotesk } from 'next/font/google'
+import Image from 'next/image'
+import  fundo  from "../../public/fundo.png"
 
 
 const space = Space_Grotesk({ 
@@ -20,9 +22,8 @@ export default function RootLayout({
   return (
     <html lang="" className={space.className}>
       <body className=" bg-color-black text-white">{children}
+      <Image src={fundo} alt='' className=' absolute opacity-30 w-screen h-screen top-0' />
       </body>
-
-      
     </html>
   )
 }
