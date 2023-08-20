@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="" className={space.className}>
       <body className=" bg-color-black text-white">{children}
-      <Image src={fundo} alt='' className=' absolute opacity-30 w-screen h-screen top-0' />
+      <Image src={fundo} alt='' className=' absolute opacity-40 md:opacity-30 w-screen h-screen object-cover top-0' />
       </body>
     </html>
   )
