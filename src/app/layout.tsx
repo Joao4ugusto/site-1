@@ -1,17 +1,8 @@
 import './globals.css'
 import { Space_Grotesk } from 'next/font/google'
 import Image from 'next/image'
-import  fundo  from "../../public/fundo.svg"
-import IconMenu from "@/icons/menu";
-import IconLogo from "@/icons/logo";
-import IconHome from "@/icons/home";
-import IconNotas from "@/icons/notas";
-import IconProject from "@/icons/project";
-import IconGit from "@/icons/github";
-import IconTwitter from "@/icons/twitter";
-import IconSun from "@/icons/sun";
-import IconMoon from "@/icons/moon";
-
+import  fundo  from "../../public/fundo1.svg"
+import { TextAlignLeftIcon, HomeIcon, FileTextIcon, CodeIcon, GitHubLogoIcon, TwitterLogoIcon, SunIcon, MoonIcon, AvatarIcon } from '@radix-ui/react-icons'
 
 const space = Space_Grotesk({ 
   weight: ['300', '400', '500', '600', '700'],
@@ -31,58 +22,58 @@ export default function RootLayout({
   return (
     <html lang="" className={space.className}>
       <Image src={fundo} alt='' className=' absolute z-[-1] top-0 w-screen h-screen left-0 object-cover' />
-      <body className=" bg-color-black text-black">{children}
+      <body className=" bg-white text-color-black  dark:bg-color-black dark:text-white ">{children}
 
-    <header className=" top-0 py-6 px-6 md:px-36 sy:px-32 lg:px-36 lg:py-4 xl:px-[385px] xl:py-4 2xl:px-[435px] 2xl:py-4 fixed w-full bg-color-black/95">
+    <header className=" top-0 py-6 px-6 md:px-36 sy:px-32 lg:px-36 lg:py-4 xl:px-[385px] xl:py-4 2xl:px-[435px] 2xl:py-4 fixed w-full bg-white dark:bg-color-black/95">
     <Image src={fundo} alt='' layout="fill" objectFit="cover" className=' absolute z-[-1] top-0  w-screen h-screen object-cover' />
     <div className=" flex justify-between items-center">
     <div className=" sy:hidden" >
-      <IconMenu />
+      <TextAlignLeftIcon width={18} className=' text-black dark:text-white' />
     </div>
     <div className="  gap-1 md:hidden sy:flex">
-    <div className=" hidden md:flex sy:p-3 sy:hover:bg-gradient-to-r from-green-200/20 via-green-300/20 to-blue-500/20 hover:rounded ">
+    <div className=" hidden md:flex sy:p-3 sy:hover:bg-gradient-to-r from-green-200/20  via-green-300/20  to-blue-500/20  hover:rounded ">
       <div className="transform-gpu">
-        <IconHome />
+        <HomeIcon width={18} className=' text-black dark:text-white' />
       </div>
     </div>
     <div className=" hidden md:flex sy:p-3 sy:hover:bg-gradient-to-r from-green-200/20 via-green-300/20 to-blue-500/20 hover:rounded ">
       <div className="transform-gpu">
-        <IconNotas />
+        <FileTextIcon width={18} className=' text-black dark:text-white' />
       </div>
     </div>
     <div className=" hidden md:flex sy:p-3 sy:hover:bg-gradient-to-r from-green-200/20 via-green-300/20 to-blue-500/20 hover:rounded">
       <div className="transform-gpu">
-        <IconProject />
+        <CodeIcon width={18} className=' text-black dark:text-white' />
       </div>
     </div>
     <p className=" hidden md:flex p-2 text-color-font-secundaria">|</p>
     <div className=" hidden md:flex sy:p-3 sy:hover:bg-gradient-to-r from-green-200/20 via-green-300/20 to-blue-500/20 hover:rounded ">
       <div className="transform-gpu">
-        <IconGit />
+        <GitHubLogoIcon width={18} className=' text-black dark:text-white' />
       </div>
     </div>
     <div className=" hidden md:flex sy:p-3 sy:hover:bg-gradient-to-r from-green-200/20 via-green-300/20 to-blue-500/20 hover:rounded">
       <div className="transform-gpu">
-        <IconTwitter />
+        <TwitterLogoIcon width={18} className=' text-black dark:text-white' />
       </div>
     </div>
     <p className=" hidden md:flex p-2 text-color-font-secundaria">|</p>
-    <div className=" flex sy:bg-white/5 rounded">
+    <div className=" flex dark:sy:bg-white/5 sy:bg-black/10 rounded">
     <div className=" hidden md:flex sy:p-3 sy:hover:bg-gradient-to-r from-green-200/20 via-green-300/20 to-blue-500/20 hover:rounded ">
       <div className="transform-gpu">
-        <IconSun />
+        <SunIcon width={18} className=' text-black dark:text-white' />
       </div>
     </div>
     <div className=" hidden md:flex sy:p-3 sy:hover:bg-gradient-to-r from-green-200/20 via-green-300/20 to-blue-500/20 hover:rounded ">
       <div className="transform-gpu">
-        <IconMoon />
+        <MoonIcon width={18} className=' text-black dark:text-white' />
       </div>
     </div>
     </div>
     </div>
     <div className=" sy:p-3 sy:hover:bg-gradient-to-r from-green-200/20 via-green-300/20 to-blue-500/20 hover:rounded inline-block">
     <div className="transform-gpu ">
-    <IconLogo />
+    <AvatarIcon width={18} className=' text-black dark:text-white' />
     </div>
    </div>
     </div>
