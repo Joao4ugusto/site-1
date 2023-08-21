@@ -28,7 +28,7 @@ export default function RootLayout({
     <Image src={fundo} alt='' layout="fill" objectFit="cover" className=' absolute z-[-1] top-0  w-screen h-screen object-cover' />
     <div className=" flex justify-between items-center">
     <div className=" sy:hidden" >
-      <TextAlignLeftIcon width={18} className=' text-black dark:text-white' />
+      <TextAlignLeftIcon width={19} className=' text-black dark:text-white' />
     </div>
     <div className="  gap-1 md:hidden sy:flex">
     <div className=" hidden md:flex sy:p-3 sy:hover:bg-gradient-to-r from-green-200/20  via-green-300/20  to-blue-500/20  hover:rounded ">
@@ -58,7 +58,7 @@ export default function RootLayout({
       </div>
     </div>
     <p className=" hidden md:flex p-2 text-color-font-secundaria">|</p>
-    <div className=" flex dark:sy:bg-white/5 sy:bg-black/10 rounded">
+    <div className=" flex dark:sy:bg-white/5 sy:bg-black/5 rounded">
     <div className=" hidden md:flex sy:p-3 sy:hover:bg-gradient-to-r from-green-200/20 via-green-300/20 to-blue-500/20 hover:rounded ">
       <div className="transform-gpu">
         <SunIcon width={18} className=' text-black dark:text-white' />
