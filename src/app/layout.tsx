@@ -31,47 +31,47 @@ export default function RootLayout({
       <TextAlignLeftIcon width={19} className=' text-black dark:text-white' />
     </div>
     <div className="  gap-1 md:hidden sy:flex">
-    <div className=" hidden md:flex sy:p-3 sy:hover:bg-gradient-to-r from-green-200/20  via-green-300/20  to-blue-500/20  hover:rounded ">
+    <div className=" hidden sy:flex sy:p-3 dark:sy:hover:bg-gradient-to-r dark:from-green-200/20  dark:via-green-300/20  dark:to-blue-500/20  sy:hover:bg-gradient-to-r from-green-200/40 via-green-300/40 to-blue-500/40   hover:rounded ">
       <div className="transform-gpu">
         <HomeIcon width={18} className=' text-black dark:text-white' />
       </div>
     </div>
-    <div className=" hidden md:flex sy:p-3 sy:hover:bg-gradient-to-r from-green-200/20 via-green-300/20 to-blue-500/20 hover:rounded ">
+    <div className=" hidden sy:flex sy:p-3 dark:sy:hover:bg-gradient-to-r dark:from-green-200/20  dark:via-green-300/20  dark:to-blue-500/20  sy:hover:bg-gradient-to-r from-green-200/40 via-green-300/40 to-blue-500/40   hover:rounded ">
       <div className="transform-gpu">
         <FileTextIcon width={18} className=' text-black dark:text-white' />
       </div>
     </div>
-    <div className=" hidden md:flex sy:p-3 sy:hover:bg-gradient-to-r from-green-200/20 via-green-300/20 to-blue-500/20 hover:rounded">
+    <div className=" hidden sy:flex sy:p-3 dark:sy:hover:bg-gradient-to-r dark:from-green-200/20  dark:via-green-300/20  dark:to-blue-500/20  sy:hover:bg-gradient-to-r from-green-200/40 via-green-300/40 to-blue-500/40   hover:rounded">
       <div className="transform-gpu">
         <CodeIcon width={18} className=' text-black dark:text-white' />
       </div>
     </div>
     <p className=" hidden md:flex p-2 text-color-font-secundaria">|</p>
-    <div className=" hidden md:flex sy:p-3 sy:hover:bg-gradient-to-r from-green-200/20 via-green-300/20 to-blue-500/20 hover:rounded ">
+    <div className=" hidden sy:flex sy:p-3 dark:sy:hover:bg-gradient-to-r dark:from-green-200/20  dark:via-green-300/20  dark:to-blue-500/20  sy:hover:bg-gradient-to-r from-green-200/40 via-green-300/40 to-blue-500/40   hover:rounded ">
       <div className="transform-gpu">
         <GitHubLogoIcon width={18} className=' text-black dark:text-white' />
       </div>
     </div>
-    <div className=" hidden md:flex sy:p-3 sy:hover:bg-gradient-to-r from-green-200/20 via-green-300/20 to-blue-500/20 hover:rounded">
+    <div className=" hidden sy:flex sy:p-3 dark:sy:hover:bg-gradient-to-r dark:from-green-200/20  dark:via-green-300/20  dark:to-blue-500/20  sy:hover:bg-gradient-to-r from-green-200/40 via-green-300/40 to-blue-500/40   hover:rounded">
       <div className="transform-gpu">
         <TwitterLogoIcon width={18} className=' text-black dark:text-white' />
       </div>
     </div>
     <p className=" hidden md:flex p-2 text-color-font-secundaria">|</p>
     <div className=" flex dark:sy:bg-white/5 sy:bg-black/5 rounded">
-    <div className=" hidden md:flex sy:p-3 sy:hover:bg-gradient-to-r from-green-200/20 via-green-300/20 to-blue-500/20 hover:rounded ">
+    <div className=" hidden sy:flex sy:p-3 dark:sy:hover:bg-gradient-to-r dark:from-green-200/20  dark:via-green-300/20  dark:to-blue-500/20  sy:hover:bg-gradient-to-r from-green-200/60 via-green-300/60 to-blue-500/60   hover:rounded ">
       <div className="transform-gpu">
         <SunIcon width={18} className=' text-black dark:text-white' />
       </div>
     </div>
-    <div className=" hidden md:flex sy:p-3 sy:hover:bg-gradient-to-r from-green-200/20 via-green-300/20 to-blue-500/20 hover:rounded ">
+    <div className=" hidden sy:flex sy:p-3 dark:sy:hover:bg-gradient-to-r dark:from-green-200/20  dark:via-green-300/20  dark:to-blue-500/20  sy:hover:bg-gradient-to-r from-green-200/60 via-green-300/60 to-blue-500/60   hover:rounded ">
       <div className="transform-gpu">
         <MoonIcon width={18} className=' text-black dark:text-white' />
       </div>
     </div>
     </div>
     </div>
-    <div className=" sy:p-3 sy:hover:bg-gradient-to-r from-green-200/20 via-green-300/20 to-blue-500/20 hover:rounded inline-block">
+    <div className="  sy:flex sy:p-3 dark:sy:hover:bg-gradient-to-r dark:from-green-200/20  dark:via-green-300/20  dark:to-blue-500/20  sy:hover:bg-gradient-to-r from-green-200/40 via-green-300/40 to-blue-500/40  hover:rounded inline-block">
     <div className="transform-gpu ">
     <AvatarIcon width={18} className=' text-black dark:text-white' />
     </div>
