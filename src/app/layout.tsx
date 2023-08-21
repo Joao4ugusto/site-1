@@ -3,6 +3,7 @@ import './globals.css'
 import { Space_Grotesk } from 'next/font/google'
 import Image from 'next/image'
 import  fundo  from "../../public/fundo1.svg"
+import  fundo1  from "../../public/fundo.svg"
 import { TextAlignLeftIcon, HomeIcon, FileTextIcon, CodeIcon, GitHubLogoIcon, TwitterLogoIcon, SunIcon, MoonIcon, AvatarIcon } from '@radix-ui/react-icons'
 import { useEffect, useState } from 'react'
 const space = Space_Grotesk({ 
@@ -27,11 +28,11 @@ export default function RootLayout({
   const [tema2 , setTema2 ] = useState(false);
   const on1 = () => {
     setTema(!tema);
-    setTema2(false);
+    setTema2(!tema2);
   };
   const on2 = () => {
     setTema2(!tema2);
-    setTema(false)
+    setTema(!tema)
   };
 
   useEffect(() => {
@@ -47,10 +48,8 @@ export default function RootLayout({
 
   return (
     <html lang="" className={space.className}>
-      <body className={` ${tema ? " bg-white": "bg-color-black"}`}>{children}
-      <Image src={fundo} alt='' className=' absolute z-[-1] top-0 w-screen h-screen left-0 object-cover' />
-    <header className=" top-0 py-6 px-6 md:px-36 sy:px-32 lg:px-36 lg:py-4 xl:px-[385px] xl:py-4 2xl:px-[435px] 2xl:py-4 fixed w-full bg-white dark:bg-color-black/95">
-    <Image src={fundo} alt='' layout="fill" objectFit="cover" className=' absolute z-[-1] top-0  w-screen h-screen object-cover' />
+      <body className={` ${tema ? " bg-white": "bg-color-black"} ${tema ? <Image src={fundo} alt='' className=' absolute z-[-1] top-0 w-screen h-screen left-0 object-cover' /> : <Image src={fundo1} alt='' className=' absolute z-[-1] top-0 w-screen h-screen left-0 object-cover' />}`}>{children}
+      <header className={` top-0 py-6 px-6 md:px-36 sy:px-32 lg:px-36 lg:py-4 xl:px-[385px] xl:py-4 2xl:px-[435px] 2xl:py-4 fixed w-full bg-white dark:bg-color-black/95 ${tema ? <Image src={fundo} alt='' layout="fill" objectFit="cover" className=' absolute z-[-1] top-0  w-screen h-screen object-cover' /> : <Image src={fundo1} alt='' layout="fill" objectFit="cover" className=' absolute z-[-1] top-0  w-screen h-screen object-cover' /> }`}>
     <div className=" flex justify-between items-center">
     <div className=" sy:hidden" >
       <TextAlignLeftIcon width={19} className=' text-black dark:text-white' />
