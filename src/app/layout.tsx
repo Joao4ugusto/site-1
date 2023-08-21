@@ -30,7 +30,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="" className={space.className}>
-      <Image src={fundo} alt='' className=' absolute z-[-1] top-0  w-screen h-screen left-0 object-cover' />
+      <Image src={fundo} alt='' className=' absolute z-[-1] top-0 w-screen h-screen left-0 object-cover' />
       <body className=" bg-color-black text-black">{children}
 
     <header className=" top-0 py-6 px-6 md:px-36 sy:px-32 lg:px-36 lg:py-4 xl:px-[385px] xl:py-4 2xl:px-[435px] 2xl:py-4 fixed w-full bg-color-black/95">
